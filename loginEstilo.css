@@ -37,13 +37,54 @@ header #menu h5:hover{
     color: #5ADBA8;
 }
 
-header h1{
-    font-size: 130px;
+form{
+    font-size: 40pt;
     text-align: center;
-    margin-top: 105px;
+    margin-top: 67px;
     font-weight: 600;
 }
+form input{
+    height: 40px;
+    width: 30vw;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16pt;
+}
+#enviar{
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
 
+#enviar:hover{
+    color: #5ADBA8;
+}
+
+#opcoes{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 27px;
+   
+}
+#opcoes h5{
+    cursor: pointer;
+}
+
+#opcoes h5:hover{
+    color: #5ADBA8;
+}
 #sec1{
     height: 480px;
     display: flex;
