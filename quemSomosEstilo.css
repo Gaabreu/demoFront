@@ -5,7 +5,7 @@
 
 header{
     height: 100vh;
-    background-image: url('img/angkor2.jpg');
+    background-image: url('img/bagan.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -38,37 +38,27 @@ header #menu h5:hover{
 }
 
 header h1{
-    font-size: 130px;
+    margin-top: 20%;
+    font-size: 70px;
     text-align: center;
-    margin-top: 105px;
-    font-weight: 600;
 }
 
-#sec1{
-    height: 480px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+#texto {
+    margin-top: 10%;
+    text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 27px;
+    margin-bottom: 10%;
 }
 
-.linha{
-    border: solid #5ADBA8 1px; 
-    width: 10vw;
-    margin-bottom: 60px;
+#texto p{
     margin-top: 10px;
-}
-
-.icones{
-    width: 80vw;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif; 
 }
-
-.icone{
-    width: 200px;
+#texto span{
+    color: #5ADBA8;
+    text-decoration: underline;
 }
 

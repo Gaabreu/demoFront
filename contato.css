@@ -38,37 +38,41 @@ header #menu h5:hover{
 }
 
 header h1{
-    font-size: 130px;
+    text-align: center;
+}
+header h2{
+    font-size: 100px;
     text-align: center;
     margin-top: 105px;
     font-weight: 600;
 }
 
-#sec1{
-    height: 480px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.linha{
-    border: solid #5ADBA8 1px; 
-    width: 10vw;
-    margin-bottom: 60px;
-    margin-top: 10px;
-}
-
-.icones{
-    width: 80vw;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+header h3{
+    font-size: 20px;
     text-align: center;
 }
 
-.icone{
-    width: 200px;
+header h4{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+section h4,h1{
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+section h4{
+    font-size: 30px;
+    text-align: center;
+}
+
+section h1{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 105px;
+    font-weight: 600;
 }
 

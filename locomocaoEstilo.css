@@ -44,31 +44,56 @@ header h1{
     font-weight: 600;
 }
 
-#sec1{
-    height: 480px;
+header h2{
+    text-align: center;
+}
+
+#auto img{
+    width: 250px;
+    height: auto;
+    background-color: #5ADBA8;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: left;
+}
+.conteiner{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-top: 10%;
 }
 
+.itens h2{
+    margin: 5px;
+}
+
+#taxi{
+    margin-top: 10%;
+    
+}
+
+#taxi img{
+    float: right;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#rickshaw{
+    margin-top: 10%;
+}
+#rickshaw img{
+    width: 300px;
+    height: 225px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: left;
+}
 .linha{
     border: solid #5ADBA8 1px; 
     width: 10vw;
     margin-bottom: 60px;
     margin-top: 10px;
 }
-
-.icones{
-    width: 80vw;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-}
-
-.icone{
-    width: 200px;
-}
-
