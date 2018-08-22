@@ -4,7 +4,7 @@
 }
 
 header{
-    height: 100vh;
+    height: 83vh;
     background-image: url('img/angkor2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,7 +38,7 @@ header h2{
 }
 
 header #menu img{
-    height: 70px;
+    height: 77px;
 }
 
 header #menu h5{
@@ -48,7 +48,11 @@ header #menu h5{
 header #menu h5:hover{
     color: #5ADBA8;
 }
-
+#linhabrancaheader{
+    width: 98.;
+    background-color: white;
+    height: 3px;
+}
 section{
     margin-bottom: 10%;
 }
